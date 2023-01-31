@@ -1,0 +1,23 @@
+.button{
+    font-weight: 400;
+    text-transform: none !important;
+}
+.green-color{
+    background: #0C611A !important;
+}
+.yellow-color-btn{
+    background: #DBDBDB !important;
+    border-radius: 70px !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+}
+.yellow-color-btn.active{
+    /*border-radius: 70px !important;*/
+    color: #FFFFFF !important;
+    background: #F8991F !important;
+}
+.icon-btn{
+    min-width: 40px !important;
+    padding-left: 0 !important;
+    padding-right: 0!important;
+}

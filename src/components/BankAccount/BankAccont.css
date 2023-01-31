@@ -1,0 +1,42 @@
+.bank-account-users{
+    max-height: 290px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.bank-account-user-box{
+    max-width: 430px;
+    width: 100% !important;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0 7px 14px;
+}
+.white-background{
+    background: #FFFFFF;
+}
+.bank-account-grey-color{
+    color: #C7C7C7;
+    font-size: 14px;
+}
+.bank-account-black-color{
+    font-size: 16px;
+}
+
+.appear-button{
+    display: block !important;
+}
+
+@media only screen and (min-width: 428px) {
+    .appear-button{
+        display: none !important;
+    }
+    .bank-account-user-box{
+        width: 272px !important;
+    }
+}
+.bank-account{
+    background: #F5F6F8;
+    height: 100%;
+}

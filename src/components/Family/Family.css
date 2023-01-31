@@ -1,0 +1,43 @@
+.family-box{
+    background: #F5F6F8;
+    /*min-width: 500px;*/
+    min-height: 376px;
+}
+.family-users{
+    max-height: 290px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.family-user-box{
+    max-width: 430px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    /*margin: 16px 0;*/
+    margin-bottom: 10px;
+}
+.family-users::-webkit-scrollbar {
+    width: 5px;
+}
+.family-users::-webkit-scrollbar-track {
+    background: #E8E8E8;
+}
+.family-users::-webkit-scrollbar-thumb {
+    background: #232E3E;
+    opacity: 0.5;
+}
+.blue-dark-color{
+    background: #CAD7F5;
+}
+.blue-color{
+    background: #DEE8FF;
+}
+.yellow-color{
+    background: #F8991F;
+}
+.Admin-head{
+    color: #FFFFFF;
+    margin-left: 15px;
+}

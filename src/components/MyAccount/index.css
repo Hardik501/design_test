@@ -1,0 +1,60 @@
+.account-Box{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    width: 94%;
+    margin: 30px auto 0;
+}
+.accountTitle{
+    text-align: left;
+    font: normal normal  28px/33px Work Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.accountViewButton{
+    background: #232E3E 0% 0% no-repeat padding-box !important;
+    border-radius: 4px;
+    opacity: 1;
+    float: right;
+    text-align: left;
+    font: normal normal 600 16px/19px Work Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+}
+.Success-box{
+    width: 374px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0C611A;
+    background: #CEF2DA;
+}
+.menu-Items-tooltip{
+    cursor: pointer;
+    transition: 0.5s all;
+
+}
+.menu-Items-tooltip:hover{
+    background: #F8991F;
+}
+.aero-tooltip{
+    position: absolute;
+    top: -16%;
+    right: 10%;
+}
+.edit-select-tooltip{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+}
+@media (max-width: 428px) {
+    .account-Box{
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        width: 94%;
+        margin: 0 auto 15px;
+    }
+}

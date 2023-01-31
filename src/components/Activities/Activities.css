@@ -1,0 +1,30 @@
+.activities-box{
+    background: #F5F6F8;
+    max-width: 522px;
+    min-height: 620px;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .activities-box{
+        max-height: 390px;
+        min-height: auto;
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 428px) {
+    .activities-box{
+        max-height: max-content;
+        min-height: auto;
+        /*overflow-y: scroll;*/
+    }
+}
+.MuiTimelineItem-root:before{
+    flex: none !important;
+    padding: 0 !important;
+}
+.set-Icon{
+    width: 34px;
+    height: 34px;
+    background: #DEE8FF !important;
+    justify-content: center;
+}

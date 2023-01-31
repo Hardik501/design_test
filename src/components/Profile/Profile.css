@@ -1,0 +1,190 @@
+.Profile-box{
+    background: #F5F6F8;
+    /* max-width: 500px; */
+    /* max-height: 376px; */
+    /*width: 70%;*/
+    display: flex;
+    /*margin: 20px;*/
+}
+.Profile-photo-main{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.Profile-photo{
+    /*height: 100%;*/
+    position: relative;
+    border: 2px solid transparent;
+}
+.add-border{
+    border: 2px solid #F8991F;
+    border-radius: 50%;
+}
+.Profile-Name{
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.input-1{
+    width: 50% !important;
+    
+}
+.edit{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 3%;
+    bottom: 2%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.edit-select{
+    width: 122px;
+    position: absolute;
+    top: 110%;
+    left: -25%;
+}
+.menu-Items{
+    cursor: pointer;
+    transition: 0.5s all;
+
+}
+.menu-Items:hover{
+    background: #F8991F;
+}
+.Profile-input-main{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-line{
+    /* width: 45%; */
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-input>div{
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 0px 2px #00000012;
+}
+.form-input-disabled{
+    box-shadow: inset 0px 0px 2px #00000012;
+}
+.form-input-disabled>div{
+    height: 35px;
+}
+.dark{
+    background: #232E3E 0% 0% no-repeat padding-box !important;
+}
+.media-428-button{
+    display: none;
+}
+.Profile-photo-button{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.profile-button{
+    margin-top: 5px !important;
+    height: 30px !important;
+    width: 92% !important;
+    letter-spacing: 0 !important;
+    line-height: 0.8 !important;
+    font-size: 12px !important;
+}
+.input-field{
+    width: 60%;
+}
+.input-Label{
+    width: 36%;
+    text-align: left;
+}
+/* .input-line div{
+    width: 100%;
+} */
+
+/* 1024 screen */
+@media  (max-width: 1024px) {
+    .Profile-box{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .Profile-photo-main{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .Profile-input-main{
+        width: 100%;
+        display: flex;
+    }
+
+    .Profile-photo-button{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .profile-button{
+        width: auto !important;
+        margin: 5px !important;
+    }
+
+    .FullWidth{
+        width: 100%;
+        color: #202020;
+    }
+    .input-line{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .input-Label{
+        width: 100%;
+        text-align: left;
+    }
+    .media-email-none{
+        display: none;
+    }
+    .input-1{
+        width: 100% !important;
+        display: flex;
+        margin-bottom: 10px;
+        padding-left: 0px !important;
+    }
+}
+@media (max-width: 428px) {
+    .media-dob-none, .media-428-button-none{
+        display: none;
+    }
+    .Profile-box{
+        background: #F5F6F8;
+        /* max-width: 500px; */
+        /* max-height: 376px; */
+        width: 100%;
+        display: flex;
+        /*margin: 20px;*/
+        margin-top: 20px;
+    }
+    .input-line{
+        width: 50%;
+    }
+    .media-428-button{
+        display: block;
+    }
+    .profile-button{
+        width: 125px !important;
+    }
+}

@@ -1,0 +1,83 @@
+.billing-address-box{
+    background: #F5F6F8;
+}
+.billing-address-users{
+    width: 100%;
+}
+.bank-account-user-box{
+    max-width: 430px;
+    width: 272px;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0 7px 14px;
+}
+.white-background{
+    background: #FFFFFF;
+}
+.bank-account-grey-color{
+    color: #C7C7C7;
+    font-size: 14px;
+}
+.bank-account-black-color{
+    font-size: 16px;
+}
+.gold-color{
+    color: #F8991F;
+}
+.form-input>div{
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 0px 2px #00000012;
+    color: #202020;
+    font-size: 14px;
+}
+.form-input-disabled{
+    box-shadow: inset 0px 0px 2px #00000012;
+}
+.form-input-disabled>div{
+    height: 35px;
+}
+.form-input-select{
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 0px 2px #00000012;
+    text-align: left;
+    font-size: 14px !important;
+}
+.black-button{
+    background-color: #232E3E !important;
+}
+.form-input-bottom-box>div{
+    width: calc(50% - 7px) !important;
+}
+
+.appear-button-lg{
+    display: block !important;
+}
+.disappear-button-lg{
+    display: none !important;
+}
+.address-field-width{
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .appear-button-lg{
+        display: none !important;
+    }
+    .disappear-button-lg{
+        display: block !important;
+    }
+    .form-input-bottom-box>div{
+        width: calc(25% - 10.5px) !important;
+    }
+    .address-field-width{
+        width: 50%;
+    }
+}
