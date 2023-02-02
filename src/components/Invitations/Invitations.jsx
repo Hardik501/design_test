@@ -101,7 +101,7 @@ export default function Invitations() {
   }
   return(
     <ThemeProvider theme={theme}>
-      <Box className='family-box' px={4} py={3} sx={{borderRadius:"6px"}}>
+      <Box className='invitation-box' px={4} py={4} sx={{borderRadius:"6px"}}>
         <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center", mb:2}}>
           <Typography variant="h6">
                         Invitations

@@ -50,7 +50,7 @@ export default function Activities() {
 
   ];
   return(
-    <Box className="activities-box" px={4} py={3} sx={{borderRadius:"6px"}}>
+    <Box className="activities-box" px={3} py={3} sx={{borderRadius:"6px"}}>
       <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center", mb:3}}>
         <Typography variant="h6">
                     Activities
@@ -86,7 +86,7 @@ export default function Activities() {
       {/*        )*/}
       {/*    })}*/}
       {/*</div>*/}
-      <Timeline position="right" sx={{p:"0px"}}>
+      <Timeline position="right" sx={{p:"0px"}} className="timeline-activity">
         {data.map((item,index)=>{
           const check = data.length -1 === index
           return(

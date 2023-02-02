@@ -1,4 +1,4 @@
-.family-box{
+.invitation-box{
     background: #F5F6F8;
     /*max-width: 500px;*/
     min-height: 400px;
@@ -43,6 +43,13 @@
 @media (max-width: 428px) {
     .inner-text{
         line-height: 1 !important;
+    }
+    .invitation-box{
+        background: #FFFFFF;
+    }
+    .family-users{
+        max-height: 100vh;
+        overflow: auto;
     }
 }
 .arrow{

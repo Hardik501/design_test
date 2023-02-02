@@ -145,24 +145,9 @@ export default function BillingAddress() {
                   <CustomiseButton className={`button ${buttonType==="edit"?"black-button":"green-color"}`} text={`${buttonType==="edit"?"Edit Details":"Save"}`} size={"sm"} onClick={() => setButtonType("save")} />
                 </Box>
               </div>
-
-
-
-
-
-
-
-
-
-
-
             </Box>
           </FormGroup>
-
-
-
         </div>
-
       </Box>
     </ThemeProvider>
   )

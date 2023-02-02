@@ -7,14 +7,14 @@
 @media (max-width: 1024px) {
     .activities-box{
         max-height: 390px;
-        min-height: auto;
-        overflow-y: scroll;
+        /*min-height: auto;*/
     }
 }
 @media (max-width: 428px) {
     .activities-box{
         max-height: max-content;
-        min-height: auto;
+        background: #FFFFFF;
+        /*min-height: auto;*/
         /*overflow-y: scroll;*/
     }
 }

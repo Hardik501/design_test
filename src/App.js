@@ -34,11 +34,13 @@ const StyledTabs = styled((props) => (
     backgroundColor: "#F8991F",
   },
 });
+
 const StyledTab = styled((props) => <Tab disableRipple {...props} />)(
   ({ theme }) => ({
     textTransform: "none",
     fontWeight: theme.typography.fontWeightRegular,
     fontSize: theme.typography.pxToRem(15),
+    padding: "12px",
     color: "#000000",
     "&.Mui-selected": {
       color: "#F8991F",
@@ -64,13 +66,14 @@ function App() {
       <Box>
         {matches1 ?
           <Box sx={{ width: "100%" }}>
+            <Account/>
             <TabContext value={value}>
               <StyledTabs
                 value={value}
                 onChange={handleChange}
+                sx={{ borderBottom: 1, borderColor: "divider" }}
                 aria-label="secondary tabs example"
                 scrollButtons
-                allowScrollButtonsMobile
                 centered
               >
                 <StyledTab value="one" label="Profile" />
@@ -79,8 +82,7 @@ function App() {
                 <StyledTab value="four" label="Invitations" />
               </StyledTabs>
               <TabPanel value="one">
-                <Account/>
-                <Family/>
+                <Family isMobile={matches1} />
                 <Profile/>
               </TabPanel>
               <TabPanel sx={{padding:"0px"}} value="two">

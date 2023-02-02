@@ -9,6 +9,11 @@
   text-align: center;
 }
 
+.margin-y-0{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -60,7 +65,6 @@
 }
 .account_container{
   grid-area: account;
-  height: 167px;
   width: 100%
 }
 

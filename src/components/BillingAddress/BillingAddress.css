@@ -4,15 +4,6 @@
 .billing-address-users{
     width: 100%;
 }
-.bank-account-user-box{
-    max-width: 430px;
-    width: 272px;
-    height: 71px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 7px 0 7px 14px;
-}
 .white-background{
     background: #FFFFFF;
 }

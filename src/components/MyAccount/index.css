@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     text-align: start;
-    width: 94%;
-    margin: 30px auto 0;
+    margin: 25px 25px 0;
 }
 .accountTitle{
     text-align: left;
@@ -39,22 +38,25 @@
 .menu-Items-tooltip:hover{
     background: #F8991F;
 }
-.aero-tooltip{
+.arrow-tooltip{
     position: absolute;
     top: -16%;
     right: 10%;
 }
 .edit-select-tooltip{
     position: absolute;
-    top: 28%;
-    right: 5%;
+    right: 2%;
 }
+
+.edit-select-tooltip:first-child:hover + .arrow-tooltip{
+    color: #F8991F !important;
+}
+
 @media (max-width: 428px) {
     .account-Box{
         display: flex;
         justify-content: space-between;
         text-align: start;
-        width: 94%;
-        margin: 0 auto 15px;
+        margin: 25px 25px 30px;
     }
 }

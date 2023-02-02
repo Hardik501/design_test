@@ -11,7 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7px 0 7px 14px;
+    border-radius: 4px;
+    padding: 7px 14px 7px 14px;
 }
 .white-background{
     background: #FFFFFF;
@@ -28,7 +29,12 @@
     display: block !important;
 }
 
-@media only screen and (min-width: 428px) {
+.bank-account{
+    background: #F5F6F8;
+    height: 100%;
+}
+
+@media only screen and (min-width: 430px) {
     .appear-button{
         display: none !important;
     }
@@ -36,7 +42,12 @@
         width: 272px !important;
     }
 }
-.bank-account{
-    background: #F5F6F8;
-    height: 100%;
+
+@media only screen and (max-width: 428px){
+    .bank-account{
+        background: #FFFFFF !important;
+    }
+    .white-background{
+        background: #F5F6F8 !important;
+    }
 }

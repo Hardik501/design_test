@@ -9,7 +9,7 @@ import Chip from "@mui/material/Chip";
 import { createTheme } from "@mui/material/styles";
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 
-export default function Family() {
+export default function Family({ isMobile }) {
   const data = [
     {
       name:"John Smith",
@@ -53,7 +53,7 @@ export default function Family() {
   });
   return(
     <ThemeProvider theme={theme}>
-      <Box className='family-box' px={4} py={3} sx={{borderRadius:"6px"}}>
+      <Box className='family-box' py={3} sx={{borderRadius:"6px", paddingLeft: isMobile ? "10px" : "25px" , paddingRight: isMobile ? "10px": "25px" }}>
         <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center", mb:2}}>
           <Typography variant="h6">
                     Family

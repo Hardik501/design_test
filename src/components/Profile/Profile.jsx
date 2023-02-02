@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Typography from "@mui/material/Typography";
 import "./Profile.css";
-import Profileimg from "../../assets/images/Profileimg.png"
+import ProfileImg from "../../assets/images/Profileimg.png"
 import Box from "@mui/material/Box";
 import { createTheme } from "@mui/material/styles";
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
@@ -31,9 +31,9 @@ export default function Profile() {
         <Grid className='Profile-photo-main'>
           <Grid>
             <div role='presentation' className={editPhoto ?"Profile-photo add-border":"Profile-photo"} onKeyDown={HandleImageSetting} onClick={HandleImageSetting}>
-              <img src={Profileimg} style={{display:"block"}} alt="Profile-img"/>
+              <img src={ProfileImg} style={{display:"block"}} alt="Profile-img"/>
               <div className={"edit"} >{!editPhoto ? <CameraAltOutlinedIcon  style={{fontSize:"18px",color:"gray",marginTop:"4px"}}/> : <CameraAltOutlinedIcon  style={{fontSize:"18px",color:"#F8991F",marginTop:"4px"}}/>}</div>
-              {editPhoto&&
+              {editPhoto &&
                             <div className="edit-select">
                               <List style={{backgroundColor:"#232E3E",padding:"0px",borderRadius:"8px",color:"white",width:"100%",zIndex:"21"}}>
                                 <ListItem style={{padding:"0"}} onClick={HandleImageSetting}>
