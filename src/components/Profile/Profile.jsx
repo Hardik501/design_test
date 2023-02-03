@@ -53,6 +53,7 @@ export default function Profile() {
             </Grid>
           </Grid>
         </Grid>
+        <div className="divider" />
         <Grid className='Profile-input-main'>
           <Grid  className="input-1">
             <Grid className="input-line">
@@ -135,12 +136,12 @@ export default function Profile() {
           </Grid>
         </Grid>
         <Grid className='Profile-photo-button'>
-          <Grid className="media-428-button-none">
+          <Grid className="media-767-button-none">
             <CustomiseButton className={"profile-button "} color={"success"} text={"Save Changes"} size={"sm"}/>
             <CustomiseButton className={"profile-button dark "} color={"success"} text={"Change Password"} size={"sm"}/> 
             <CustomiseButton className={"profile-button "} color={"error"} text={"Leave Family"} size={"sm"}/> 
           </Grid>
-          <Grid className="media-428-button">
+          <Grid className="media-767-button">
             <CustomiseButton className={"profile-button dark "} text={"Edit"} size={"sm"}/> 
           </Grid>
         </Grid>

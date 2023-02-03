@@ -9,7 +9,7 @@
     overflow-x: hidden;
 }
 .family-user-box{
-    max-width: 430px;
+    max-width: 767px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@
 .Admin-head{
     color: #FFFFFF;
 }
-@media (max-width: 428px) {
+@media (max-width: 767px) {
     .inner-text{
         line-height: 1 !important;
     }

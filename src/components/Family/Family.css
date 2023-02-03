@@ -1,7 +1,7 @@
 .family-box{
     background: #F5F6F8;
     /*min-width: 500px;*/
-    min-height: 376px;
+    height: 100%;
 }
 .family-users{
     max-height: 290px;

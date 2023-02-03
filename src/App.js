@@ -52,7 +52,7 @@ const StyledTab = styled((props) => <Tab disableRipple {...props} />)(
 );
 function App() {
   const matches = useMediaQuery("(max-width:1024px)");
-  const matches1 = useMediaQuery("(max-width:428px)");
+  const matches1 = useMediaQuery("(max-width:767px)");
   const [value, setValue] = React.useState("one");
 
   const handleChange = (event, newValue) => {

@@ -7,7 +7,7 @@ import "./index.css"
 
 const Account = ()=>{
   const [tooltip,setTooltip] = useState();
-  const matches = useMediaQuery("(max-width:428px)");
+  const matches = useMediaQuery("(max-width:767px)");
   const HandleTooltip = () => {
     setTooltip(!tooltip)
   }

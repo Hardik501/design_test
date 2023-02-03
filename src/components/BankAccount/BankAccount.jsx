@@ -9,7 +9,7 @@ import CustomiseButton from "../Button/Button";
 import "./BankAccont.css";
 
 export default function BankAccount() {
-  const matches = useMediaQuery("(max-width:428px)");
+  const matches = useMediaQuery("(max-width:767px)");
   const data = [
     {
       account_number:"123456789123",
@@ -43,10 +43,12 @@ export default function BankAccount() {
             return(
               <div key={index} className={"bank-account-user-box white-background"}>
                 <Box sx={{display:"flex",alignItems:"center", flexDirection : "row", justifyContent: "space-between", width: "100%"}}>
-                  <img src={MasterCardImg} alt="MasterCardImg" />
-                  <Box sx={{padding:"19px 22px 17px 15px", display: "flex", flexDirection: "column", gap: "1px", textAlign: "left"}}>
-                    <p className={"font-medium margin-y-0 bank-account-black-color"}>**** **** {item.account_number.slice(8,12)}</p>
-                    <p className={"font-medium margin-y-0 bank-account-grey-color"}>Expires {item.expiry_date}</p>
+                  <Box sx={{display:"flex"}}>
+                    <img src={MasterCardImg} alt="MasterCardImg" />
+                    <Box sx={{padding:"19px 22px 17px 15px", display: "flex", flexDirection: "column", gap: "1px", textAlign: "left"}}>
+                      <p className={"font-medium margin-y-0 bank-account-black-color"}>**** **** {item.account_number.slice(8,12)}</p>
+                      <p className={"font-medium margin-y-0 bank-account-grey-color"}>Expires {item.expiry_date}</p>
+                    </Box>
                   </Box>
                   <CustomiseButton className={"green-color button appear-button"} text={"Edit"} size={"sm"}/>
 

@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 .bank-account-user-box{
-    max-width: 430px;
+    max-width: 767px;
     width: 100% !important;
     height: 71px;
     display: flex;
@@ -34,7 +34,7 @@
     height: 100%;
 }
 
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 768px) {
     .appear-button{
         display: none !important;
     }
@@ -43,7 +43,7 @@
     }
 }
 
-@media only screen and (max-width: 428px){
+@media only screen and (max-width: 767px){
     .bank-account{
         background: #FFFFFF !important;
     }

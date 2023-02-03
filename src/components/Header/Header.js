@@ -68,7 +68,7 @@ export default function Header() {
     setData(name)
     setAnchorEl(e.currentTarget)
   }
-  const matches1 = useMediaQuery("(max-width:428px)");
+  const matches1 = useMediaQuery("(max-width:767px)");
   const navList = (
     subList.map((item, index)=>(
       <Typography key={index}>

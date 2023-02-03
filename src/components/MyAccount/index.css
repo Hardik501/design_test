@@ -52,7 +52,7 @@
     color: #F8991F !important;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 767px) {
     .account-Box{
         display: flex;
         justify-content: space-between;

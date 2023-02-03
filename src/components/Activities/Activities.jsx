@@ -10,7 +10,10 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
 import "./Activities.css"
 import Box from "@mui/material/Box";
+import {useMediaQuery} from "@mui/material";
+
 export default function Activities() {
+  const matches = useMediaQuery("(max-width:767px)");
   const data = [
     {
       name:"Leslie Alexander updated her",
@@ -51,12 +54,13 @@ export default function Activities() {
   ];
   return(
     <Box className="activities-box" px={3} py={3} sx={{borderRadius:"6px"}}>
-      <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center", mb:3}}>
+      {!matches && <Box sx={{display: "flex", justifyContent: "space-between", alignItems: "center", mb: 3}}>
         <Typography variant="h6">
-                    Activities
+          Activities
         </Typography>
         <CustomiseButton className={"green-color button"} text={"View All"} size={"sm"}/>
       </Box>
+      }
       {/*<div>*/}
       {/*    {data.map((i,index)=>{*/}
       {/*        const check = data.length -1 === index*/}

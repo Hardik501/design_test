@@ -10,7 +10,7 @@
         /*min-height: auto;*/
     }
 }
-@media (max-width: 428px) {
+@media (max-width: 767px) {
     .activities-box{
         max-height: max-content;
         background: #FFFFFF;

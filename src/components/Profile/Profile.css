@@ -61,6 +61,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+.divider{
+    border-left: solid;
+    border-left-width: 1px;
+    border-left-color: rgb(226 232 240);
+    margin: 0 10px;
+}
 .input-line{
     /* width: 45%; */
     padding: 2px;
@@ -84,7 +90,7 @@
 .dark{
     background: #232E3E 0% 0% no-repeat padding-box !important;
 }
-.media-428-button{
+.media-767-button{
     display: none;
 }
 .Profile-photo-button{
@@ -114,6 +120,9 @@
 
 /* 1024 screen */
 @media  (max-width: 1024px) {
+    .divider{
+        display: none;
+    }
     .Profile-box{
         display: flex;
         flex-wrap: wrap;
@@ -165,8 +174,8 @@
         padding-left: 0px !important;
     }
 }
-@media (max-width: 428px) {
-    .media-dob-none, .media-428-button-none{
+@media (max-width: 767px) {
+    .media-dob-none, .media-767-button-none{
         display: none;
     }
     .Profile-box{
@@ -181,7 +190,7 @@
     .input-line{
         width: 50%;
     }
-    .media-428-button{
+    .media-767-button{
         display: block;
     }
     .profile-button{
